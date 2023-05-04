@@ -1,4 +1,4 @@
-public class removeElement {
+public class RemoveElement {
     public static void main(String[] args) {
         int[] nums = {3, 2, 2, 3, 4, 5, 6, 7, 8};
         int val = 3;

@@ -1,4 +1,4 @@
-public class huiwen {
+public class Huiwen {
     public static void main(String[] args) {
         int x = 1221;
         System.out.println(isPalindrome(x));

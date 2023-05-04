@@ -1,4 +1,4 @@
-public class searchInsert {
+public class SearchInsert {
     public static void main(String[] args) {
         int[] nums = {1};
         int target = 0;

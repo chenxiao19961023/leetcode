@@ -5,11 +5,8 @@ public class PlusOne {
         int[] digits = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         int[] digits1 = {9, 9, 9, 9};
 
-
         //错误的方法
         System.out.println(Arrays.toString(plusOne(digits)));
-
-
         System.out.println(Arrays.toString(plusOne1(digits1)));
     }
 
