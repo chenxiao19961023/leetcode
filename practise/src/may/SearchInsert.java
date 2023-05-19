@@ -1,3 +1,5 @@
+package may;
+
 public class SearchInsert {
     public static void main(String[] args) {
         int[] nums = {1};

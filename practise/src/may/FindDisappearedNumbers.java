@@ -1,3 +1,5 @@
+package may;
+
 import java.util.*;
 
 public class FindDisappearedNumbers {
