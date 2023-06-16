@@ -3,7 +3,7 @@ package may;
 import java.util.HashMap;
 import java.util.Map;
 
-public record MajorityElement() {
+public class MajorityElement {
     public static void main(String[] args) {
        int[] nums = {3,2,3};
        int[] nums1 = {2,2,1,1,1,2,2};
