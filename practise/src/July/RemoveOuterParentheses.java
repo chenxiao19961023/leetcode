@@ -1,7 +1,5 @@
 package July;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class RemoveOuterParentheses {
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class RemoveOuterParentheses {
         int left = 0;
         int right = 0;
         int index = 0;
-        List<String> list = new ArrayList<>();
+        StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 left++;
@@ -31,16 +29,12 @@ public class RemoveOuterParentheses {
                 right++;
             }
             if (left == right) {
-                list.add(s.substring(index, i + 1));
+                stringBuilder.append(s.substring(index + 1, i)) ;
                 index = i + 1;
                 left = 0;
                 right = 0;
             }
         }
-        String result = "";
-        for (String s1 : list) {
-            result += s1.substring(1, s1.length() - 1);
-        }
-        return result;
+        return stringBuilder.toString();
     }
 }
